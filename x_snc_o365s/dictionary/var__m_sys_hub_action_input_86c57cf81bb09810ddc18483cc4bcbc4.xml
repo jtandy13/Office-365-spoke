@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="child_label=Invitees_child0,child_name=Invitees_child0,child_type=string,child_type_label=String,child_uiUniqueId=f0bb1b90-c875-4ced-805c-1e51cf23fa77,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,max_rows=10,uiType=collection,uiTypeLabel=Collection,uiUniqueId=d144721c-e53c-43b2-aa55-df523590daad" element="invitees" mandatory="true" max_length="1024" name="var__m_sys_hub_action_input_86c57cf81bb09810ddc18483cc4bcbc4" type="collection">
+        <element attributes="element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=fc0608eb-cbef-4ab2-b84e-b1f3f22bb2e9" choice="3" default="Weekly" mandatory="true" max_length="32" name="frequency" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Weekly" sequence="0" value="Weekly"/>
+                <element inactive_on_update="false" label="Bi-Weekly" sequence="1" value="Bi-Weekly"/>
+                <element inactive_on_update="false" label="Monthly" sequence="2" value="Monthly"/>
+            </choice>
+        </element>
+        <element attributes="element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=83993957-3b47-43fd-85b4-f1fedfce74d2" choice="3" default="No" mandatory="true" max_length="32" name="monday" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Yes" sequence="0" value="Yes"/>
+                <element inactive_on_update="false" label="No" sequence="1" value="No"/>
+            </choice>
+        </element>
+    </element>
+</database>

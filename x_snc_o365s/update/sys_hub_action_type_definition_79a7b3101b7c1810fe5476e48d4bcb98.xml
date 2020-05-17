@@ -1,0 +1,2075 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation>Create a recurring Office 365 calendar event by specifying the frequency, start date, end date, and invitees.</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Create a recurring Office 365 calendar event by specifying the frequency, start date, end date, and invitees.</description>
+        <ih_action>false</ih_action>
+        <internal_name>create_recurring_event</internal_name>
+        <label_cache>[{"name":"{{action.invitee_emails}}","label":"action➛Invitee Emails","type":"action","ref":""},{"name":"{{action.invitees}}","label":"action➛Invitees","type":"action","ref":"sys_user"},{"name":"{{action.frequency}}","label":"action➛Frequency","type":"action","ref":""},{"name":"{{action.monday}}","label":"action➛Monday","type":"action","ref":""},{"name":"{{action.tuesday}}","label":"action➛Tuesday","type":"action","ref":""},{"name":"{{action.wednesday}}","label":"action➛Wednesday","type":"action","ref":""},{"name":"{{action.thursday}}","label":"action➛Thursday","type":"action","ref":""},{"name":"{{action.friday}}","label":"action➛Friday","type":"action","ref":""}]</label_cache>
+        <latest_snapshot>b95c29381b349810ddc18483cc4bcb20</latest_snapshot>
+        <master_snapshot>eba73b101b7c1810fe5476e48d4bcb96</master_snapshot>
+        <name>Create Recurring Event</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-12 02:37:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>79a7b3101b7c1810fe5476e48d4bcb98</sys_id>
+        <sys_mod_count>71</sys_mod_count>
+        <sys_name>Create Recurring Event</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Office 365 Spoke" source="x_snc_o365s">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_79a7b3101b7c1810fe5476e48d4bcb98</sys_update_name>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:45:31</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=79a7b3101b7c1810fe5476e48d4bcb98"/>
+    <sys_variable_value action="delete_multiple" query="document_key=79a7b3101b7c1810fe5476e48d4bcb98"/>
+    <sys_hub_action_input action="delete_multiple" query="model=79a7b3101b7c1810fe5476e48d4bcb98^sys_idNOT IN11d8e1b41b349810ddc18483cc4bcb5e,1229a5b41b349810ddc18483cc4bcbc3,45cba1381b349810ddc18483cc4bcbde,8081bc381bb09810ddc18483cc4bcbc6,84a861b41b349810ddc18483cc4bcb9e,c881bc381bb09810ddc18483cc4bcbba,d10965b41b349810ddc18483cc4bcb37"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=f2d7d3ee-dcca-4bd7-bce3-3fdbc7a6b983</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>No</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wednesday</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Wednesday</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Recurring Event">79a7b3101b7c1810fe5476e48d4bcb98</model>
+        <model_id>79a7b3101b7c1810fe5476e48d4bcb98</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 05:30:09</sys_created_on>
+        <sys_id>11d8e1b41b349810ddc18483cc4bcb5e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:32:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=223bbb59-ada7-4165-9a82-1c8081ad008f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>No</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>friday</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Friday</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Recurring Event">79a7b3101b7c1810fe5476e48d4bcb98</model>
+        <model_id>79a7b3101b7c1810fe5476e48d4bcb98</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 05:31:36</sys_created_on>
+        <sys_id>1229a5b41b349810ddc18483cc4bcbc3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:32:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Invitees_child0,child_name=Invitees_child0,child_type=string,child_type_label=String,child_uiUniqueId=f0bb1b90-c875-4ced-805c-1e51cf23fa77,co_type_name=FDbc85b4f80ab09810366c17285a5b3713,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,max_rows=10,uiType=string,uiTypeLabel=String,uiUniqueId=d144721c-e53c-43b2-aa55-df523590daad</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>invitees</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Invitees</label>
+        <mandatory>true</mandatory>
+        <max_length>1024</max_length>
+        <model display_value="Create Recurring Event">79a7b3101b7c1810fe5476e48d4bcb98</model>
+        <model_id>79a7b3101b7c1810fe5476e48d4bcb98</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 05:42:58</sys_created_on>
+        <sys_id>45cba1381b349810ddc18483cc4bcbde</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:42:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=83993957-3b47-43fd-85b4-f1fedfce74d2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>No</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>monday</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Monday</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Recurring Event">79a7b3101b7c1810fe5476e48d4bcb98</model>
+        <model_id>79a7b3101b7c1810fe5476e48d4bcb98</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 01:28:25</sys_created_on>
+        <sys_id>8081bc381bb09810ddc18483cc4bcbc6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 01:28:56</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=0fc99cb0-59c4-4352-a682-cf3bcc98e1ca</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>No</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>tuesday</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Tuesday</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Recurring Event">79a7b3101b7c1810fe5476e48d4bcb98</model>
+        <model_id>79a7b3101b7c1810fe5476e48d4bcb98</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 05:29:15</sys_created_on>
+        <sys_id>84a861b41b349810ddc18483cc4bcb9e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:32:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=fc0608eb-cbef-4ab2-b84e-b1f3f22bb2e9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>Weekly</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>frequency</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Frequency</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Recurring Event">79a7b3101b7c1810fe5476e48d4bcb98</model>
+        <model_id>79a7b3101b7c1810fe5476e48d4bcb98</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 01:28:25</sys_created_on>
+        <sys_id>c881bc381bb09810ddc18483cc4bcbba</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 01:28:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=154e0437-6997-4f75-bd96-4d740f2708a4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>No</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>thursday</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Thursday</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Recurring Event">79a7b3101b7c1810fe5476e48d4bcb98</model>
+        <model_id>79a7b3101b7c1810fe5476e48d4bcb98</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 05:30:59</sys_created_on>
+        <sys_id>d10965b41b349810ddc18483cc4bcb37</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:32:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98^sys_idNOT IN00a861b41b349810ddc18483cc4bcba8,15d8e1b41b349810ddc18483cc4bcb67,190965b41b349810ddc18483cc4bcb40,4081bc381bb09810ddc18483cc4bcbcf,81cba1381b349810ddc18483cc4bcbe4,a629a5b41b349810ddc18483cc4bcbcc,c881bc381bb09810ddc18483cc4bcbc4"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>tuesday</element>
+        <help/>
+        <hint/>
+        <label>Tuesday</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 05:29:15</sys_created_on>
+        <sys_id>00a861b41b349810ddc18483cc4bcba8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Office 365 Spoke" source="x_snc_o365s">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:29:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>wednesday</element>
+        <help/>
+        <hint/>
+        <label>Wednesday</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 05:30:09</sys_created_on>
+        <sys_id>15d8e1b41b349810ddc18483cc4bcb67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Office 365 Spoke" source="x_snc_o365s">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:30:09</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>thursday</element>
+        <help/>
+        <hint/>
+        <label>Thursday</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 05:30:59</sys_created_on>
+        <sys_id>190965b41b349810ddc18483cc4bcb40</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Office 365 Spoke" source="x_snc_o365s">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:30:59</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>monday</element>
+        <help/>
+        <hint/>
+        <label>Monday</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 01:28:25</sys_created_on>
+        <sys_id>4081bc381bb09810ddc18483cc4bcbcf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Office 365 Spoke" source="x_snc_o365s">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 01:28:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>invitees</element>
+        <help/>
+        <hint/>
+        <label>Invitees</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 05:42:58</sys_created_on>
+        <sys_id>81cba1381b349810ddc18483cc4bcbe4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Office 365 Spoke" source="x_snc_o365s">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:42:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>friday</element>
+        <help/>
+        <hint/>
+        <label>Friday</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 05:31:36</sys_created_on>
+        <sys_id>a629a5b41b349810ddc18483cc4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Office 365 Spoke" source="x_snc_o365s">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:31:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>frequency</element>
+        <help/>
+        <hint/>
+        <label>Frequency</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 01:28:25</sys_created_on>
+        <sys_id>c881bc381bb09810ddc18483cc4bcbc4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Office 365 Spoke" source="x_snc_o365s">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 01:28:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98^sys_idNOT INc081bc381bb09810ddc18483cc4bcbbe,cc81bc381bb09810ddc18483cc4bcbbe,8881bc381bb09810ddc18483cc4bcbbf,9a29a5b41b349810ddc18483cc4bcbc6,5629a5b41b349810ddc18483cc4bcbc7,8881bc381bb09810ddc18483cc4bcbc9,4481bc381bb09810ddc18483cc4bcbca,5d0965b41b349810ddc18483cc4bcb3a,190965b41b349810ddc18483cc4bcb3b,40a861b41b349810ddc18483cc4bcba2,0ca861b41b349810ddc18483cc4bcba2,99d8e1b41b349810ddc18483cc4bcb61,55d8e1b41b349810ddc18483cc4bcb62"/>
+    <sys_choice field="frequency" table="var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Weekly</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+            <sequence>0</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 01:28:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c081bc381bb09810ddc18483cc4bcbbe</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 01:28:30</sys_updated_on>
+            <value>Weekly</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bi-Weekly</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+            <sequence>1</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 01:28:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cc81bc381bb09810ddc18483cc4bcbbe</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 01:28:30</sys_updated_on>
+            <value>Bi-Weekly</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monthly</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+            <sequence>2</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 01:28:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8881bc381bb09810ddc18483cc4bcbbf</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 01:28:30</sys_updated_on>
+            <value>Monthly</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_choice field="friday" table="var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>friday</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+            <sequence>0</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 05:31:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9a29a5b41b349810ddc18483cc4bcbc6</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 05:32:21</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>friday</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+            <sequence>1</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 05:31:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5629a5b41b349810ddc18483cc4bcbc7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 05:32:21</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_choice field="monday" table="var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>monday</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+            <sequence>0</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 01:28:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8881bc381bb09810ddc18483cc4bcbc9</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 01:28:30</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>monday</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+            <sequence>1</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 01:28:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4481bc381bb09810ddc18483cc4bcbca</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 01:28:30</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_choice field="thursday" table="var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>thursday</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+            <sequence>0</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 05:30:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5d0965b41b349810ddc18483cc4bcb3a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 05:31:36</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>thursday</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+            <sequence>1</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 05:30:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>190965b41b349810ddc18483cc4bcb3b</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 05:31:36</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_choice field="tuesday" table="var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tuesday</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+            <sequence>0</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 05:29:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40a861b41b349810ddc18483cc4bcba2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 05:30:09</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tuesday</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+            <sequence>1</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 05:29:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ca861b41b349810ddc18483cc4bcba2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 05:30:09</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_choice field="wednesday" table="var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>wednesday</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+            <sequence>0</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 05:30:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>99d8e1b41b349810ddc18483cc4bcb61</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 05:30:59</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>wednesday</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_79a7b3101b7c1810fe5476e48d4bcb98</name>
+            <sequence>1</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 05:30:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>55d8e1b41b349810ddc18483cc4bcb62</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 05:30:59</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=79a7b3101b7c1810fe5476e48d4bcb98^sys_idNOT IN33a73b101b7c1810fe5476e48d4bcba3"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Create Recurring Event">79a7b3101b7c1810fe5476e48d4bcb98</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"33a73b101b7c1810fe5476e48d4bcba3","name":"plan"}}</plan>
+        <snapshot>b95c29381b349810ddc18483cc4bcb20</snapshot>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-12 02:37:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>33a73b101b7c1810fe5476e48d4bcba3</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:45:32</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation>Create a recurring Office 365 calendar event by specifying the frequency, start date, end date, and invitees.</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Create a recurring Office 365 calendar event by specifying the frequency, start date, end date, and invitees.</description>
+        <internal_name>create_recurring_event</internal_name>
+        <label_cache>[{"name":"{{action.invitee_emails}}","label":"action➛Invitee Emails","type":"action","ref":""},{"name":"{{action.invitees}}","label":"action➛Invitees","type":"action","ref":"sys_user"},{"name":"{{action.frequency}}","label":"action➛Frequency","type":"action","ref":""},{"name":"{{action.monday}}","label":"action➛Monday","type":"action","ref":""},{"name":"{{action.tuesday}}","label":"action➛Tuesday","type":"action","ref":""},{"name":"{{action.wednesday}}","label":"action➛Wednesday","type":"action","ref":""},{"name":"{{action.thursday}}","label":"action➛Thursday","type":"action","ref":""},{"name":"{{action.friday}}","label":"action➛Friday","type":"action","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Create Recurring Event</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Create Recurring Event">79a7b3101b7c1810fe5476e48d4bcb98</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-12 02:37:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eba73b101b7c1810fe5476e48d4bcb96</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:32:24</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=eba73b101b7c1810fe5476e48d4bcb96"/>
+    <sys_variable_value action="delete_multiple" query="document_key=eba73b101b7c1810fe5476e48d4bcb96"/>
+    <sys_hub_action_input action="delete_multiple" query="model=eba73b101b7c1810fe5476e48d4bcb96^sys_idNOT IN4a5969b41b349810ddc18483cc4bcbda,b981fc381bb09810ddc18483cc4bcb77,c25969b41b349810ddc18483cc4bcbe5,c65c29381b349810ddc18483cc4bcb76,d25969b41b349810ddc18483cc4bcbfa,da5969b41b349810ddc18483cc4bcbef,f981fc381bb09810ddc18483cc4bcb82"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=0fc99cb0-59c4-4352-a682-cf3bcc98e1ca</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>No</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>tuesday</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Tuesday</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Recurring Event">eba73b101b7c1810fe5476e48d4bcb96</model>
+        <model_id>eba73b101b7c1810fe5476e48d4bcb96</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+        <next_element/>
+        <order>4</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 05:32:24</sys_created_on>
+        <sys_id>4a5969b41b349810ddc18483cc4bcbda</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:32:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=fc0608eb-cbef-4ab2-b84e-b1f3f22bb2e9</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>Weekly</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>frequency</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Frequency</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Recurring Event">eba73b101b7c1810fe5476e48d4bcb96</model>
+        <model_id>eba73b101b7c1810fe5476e48d4bcb96</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 01:28:32</sys_created_on>
+        <sys_id>b981fc381bb09810ddc18483cc4bcb77</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 01:28:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=f2d7d3ee-dcca-4bd7-bce3-3fdbc7a6b983</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>No</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>wednesday</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Wednesday</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Recurring Event">eba73b101b7c1810fe5476e48d4bcb96</model>
+        <model_id>eba73b101b7c1810fe5476e48d4bcb96</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+        <next_element/>
+        <order>5</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 05:32:24</sys_created_on>
+        <sys_id>c25969b41b349810ddc18483cc4bcbe5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:32:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=Invitees_child0,child_name=Invitees_child0,child_type=string,child_type_label=String,child_uiUniqueId=f0bb1b90-c875-4ced-805c-1e51cf23fa77,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,max_rows=10,uiType=string,uiTypeLabel=String,uiUniqueId=d144721c-e53c-43b2-aa55-df523590daad</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>invitees</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Invitees</label>
+        <mandatory>true</mandatory>
+        <max_length>1024</max_length>
+        <model display_value="Create Recurring Event">eba73b101b7c1810fe5476e48d4bcb96</model>
+        <model_id>eba73b101b7c1810fe5476e48d4bcb96</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 05:45:31</sys_created_on>
+        <sys_id>c65c29381b349810ddc18483cc4bcb76</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:45:31</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=223bbb59-ada7-4165-9a82-1c8081ad008f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>No</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>friday</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Friday</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Recurring Event">eba73b101b7c1810fe5476e48d4bcb96</model>
+        <model_id>eba73b101b7c1810fe5476e48d4bcb96</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+        <next_element/>
+        <order>7</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 05:32:24</sys_created_on>
+        <sys_id>d25969b41b349810ddc18483cc4bcbfa</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:32:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=154e0437-6997-4f75-bd96-4d740f2708a4</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>No</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>thursday</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Thursday</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Recurring Event">eba73b101b7c1810fe5476e48d4bcb96</model>
+        <model_id>eba73b101b7c1810fe5476e48d4bcb96</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+        <next_element/>
+        <order>6</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 05:32:24</sys_created_on>
+        <sys_id>da5969b41b349810ddc18483cc4bcbef</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:32:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=choice,uiTypeLabel=Choice,uiUniqueId=83993957-3b47-43fd-85b4-f1fedfce74d2</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice>3</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>No</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>monday</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Choice">choice</internal_type>
+        <label>Monday</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Create Recurring Event">eba73b101b7c1810fe5476e48d4bcb96</model>
+        <model_id>eba73b101b7c1810fe5476e48d4bcb96</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 01:28:32</sys_created_on>
+        <sys_id>f981fc381bb09810ddc18483cc4bcb82</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 01:29:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96^sys_idNOT IN065969b41b349810ddc18483cc4bcbee,065c29381b349810ddc18483cc4bcb7c,0e5969b41b349810ddc18483cc4bcbe3,1e5969b41b349810ddc18483cc4bcbf8,3581fc381bb09810ddc18483cc4bcb81,9259a9b41b349810ddc18483cc4bcb1c,b981fc381bb09810ddc18483cc4bcb8b"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>wednesday</element>
+        <help/>
+        <hint/>
+        <label>Wednesday</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 05:32:24</sys_created_on>
+        <sys_id>065969b41b349810ddc18483cc4bcbee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Office 365 Spoke" source="x_snc_o365s">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:32:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>invitees</element>
+        <help/>
+        <hint/>
+        <label>Invitees</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 05:45:31</sys_created_on>
+        <sys_id>065c29381b349810ddc18483cc4bcb7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Office 365 Spoke" source="x_snc_o365s">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:45:31</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>tuesday</element>
+        <help/>
+        <hint/>
+        <label>Tuesday</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 05:32:24</sys_created_on>
+        <sys_id>0e5969b41b349810ddc18483cc4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Office 365 Spoke" source="x_snc_o365s">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:32:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>thursday</element>
+        <help/>
+        <hint/>
+        <label>Thursday</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 05:32:24</sys_created_on>
+        <sys_id>1e5969b41b349810ddc18483cc4bcbf8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Office 365 Spoke" source="x_snc_o365s">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:32:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>frequency</element>
+        <help/>
+        <hint/>
+        <label>Frequency</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 01:28:32</sys_created_on>
+        <sys_id>3581fc381bb09810ddc18483cc4bcb81</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Office 365 Spoke" source="x_snc_o365s">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 01:28:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>friday</element>
+        <help/>
+        <hint/>
+        <label>Friday</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 05:32:25</sys_created_on>
+        <sys_id>9259a9b41b349810ddc18483cc4bcb1c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Office 365 Spoke" source="x_snc_o365s">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 05:32:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>monday</element>
+        <help/>
+        <hint/>
+        <label>Monday</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 01:28:32</sys_created_on>
+        <sys_id>b981fc381bb09810ddc18483cc4bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Office 365 Spoke" source="x_snc_o365s">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 01:28:32</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96^sys_idNOT INb181fc381bb09810ddc18483cc4bcb7b,7d81fc381bb09810ddc18483cc4bcb7b,3981fc381bb09810ddc18483cc4bcb7c,da5969b41b349810ddc18483cc4bcbfd,965969b41b349810ddc18483cc4bcbfe,f181fc381bb09810ddc18483cc4bcb86,bd81fc381bb09810ddc18483cc4bcb86,d25969b41b349810ddc18483cc4bcbf3,9e5969b41b349810ddc18483cc4bcbf3,c25969b41b349810ddc18483cc4bcbde,8e5969b41b349810ddc18483cc4bcbde,ca5969b41b349810ddc18483cc4bcbe8,865969b41b349810ddc18483cc4bcbe9"/>
+    <sys_choice field="frequency" table="var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Weekly</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+            <sequence>0</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 01:28:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b181fc381bb09810ddc18483cc4bcb7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 01:28:32</sys_updated_on>
+            <value>Weekly</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bi-Weekly</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+            <sequence>1</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 01:28:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7d81fc381bb09810ddc18483cc4bcb7b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 01:28:32</sys_updated_on>
+            <value>Bi-Weekly</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>frequency</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monthly</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+            <sequence>2</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 01:28:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3981fc381bb09810ddc18483cc4bcb7c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 01:28:32</sys_updated_on>
+            <value>Monthly</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_choice field="friday" table="var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>friday</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+            <sequence>0</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 05:32:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>da5969b41b349810ddc18483cc4bcbfd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 05:32:24</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>friday</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+            <sequence>1</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 05:32:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>965969b41b349810ddc18483cc4bcbfe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 05:32:24</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_choice field="monday" table="var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>monday</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+            <sequence>0</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 01:28:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f181fc381bb09810ddc18483cc4bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 01:28:32</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>monday</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+            <sequence>1</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 01:28:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd81fc381bb09810ddc18483cc4bcb86</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 01:28:32</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_choice field="thursday" table="var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>thursday</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+            <sequence>0</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 05:32:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d25969b41b349810ddc18483cc4bcbf3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 05:32:24</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>thursday</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+            <sequence>1</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 05:32:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9e5969b41b349810ddc18483cc4bcbf3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 05:32:24</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_choice field="tuesday" table="var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tuesday</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+            <sequence>0</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 05:32:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c25969b41b349810ddc18483cc4bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 05:32:24</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>tuesday</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+            <sequence>1</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 05:32:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e5969b41b349810ddc18483cc4bcbde</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 05:32:24</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_choice field="wednesday" table="var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>wednesday</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Yes</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+            <sequence>0</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 05:32:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ca5969b41b349810ddc18483cc4bcbe8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 05:32:24</sys_updated_on>
+            <value>Yes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>wednesday</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_input_eba73b101b7c1810fe5476e48d4bcb96</name>
+            <sequence>1</sequence>
+            <sys_created_by>james.tandy</sys_created_by>
+            <sys_created_on>2020-05-13 05:32:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>865969b41b349810ddc18483cc4bcbe9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.tandy</sys_updated_by>
+            <sys_updated_on>2020-05-13 05:32:24</sys_updated_on>
+            <value>No</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation>Delete an Office 365 calendar event by specifying the event ID number.</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Delete an Office 365 calendar event by specifying the event ID number.</description>
+        <ih_action>false</ih_action>
+        <internal_name>delete_event</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot>e09a10601bbc1810fe5476e48d4bcb42</latest_snapshot>
+        <master_snapshot>e09a10601bbc1810fe5476e48d4bcb45</master_snapshot>
+        <name>Delete Event</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-12 05:09:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b78a58201bbc1810fe5476e48d4bcbe3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Delete Event</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Office 365 Spoke" source="x_snc_o365s">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_b78a58201bbc1810fe5476e48d4bcbe3</sys_update_name>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-12 05:09:45</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=b78a58201bbc1810fe5476e48d4bcbe3"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b78a58201bbc1810fe5476e48d4bcbe3"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=b78a58201bbc1810fe5476e48d4bcbe3^sys_idNOT IN289a10601bbc1810fe5476e48d4bcb51"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Delete Event">b78a58201bbc1810fe5476e48d4bcbe3</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"289a10601bbc1810fe5476e48d4bcb51","name":"plan"}}</plan>
+        <snapshot>e09a10601bbc1810fe5476e48d4bcb42</snapshot>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-12 05:09:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>289a10601bbc1810fe5476e48d4bcb51</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-12 05:09:45</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation>Delete an Office 365 calendar event by specifying the event ID number.</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Delete an Office 365 calendar event by specifying the event ID number.</description>
+        <internal_name>delete_event</internal_name>
+        <label_cache>[]</label_cache>
+        <master>true</master>
+        <name>Delete Event</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Delete Event">b78a58201bbc1810fe5476e48d4bcbe3</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-12 05:09:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e09a10601bbc1810fe5476e48d4bcb45</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-12 05:09:45</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=e09a10601bbc1810fe5476e48d4bcb45"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e09a10601bbc1810fe5476e48d4bcb45"/>
+</record_update>

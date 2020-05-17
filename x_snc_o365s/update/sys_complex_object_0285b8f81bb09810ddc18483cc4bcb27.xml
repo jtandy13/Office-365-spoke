@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_complex_object">
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FD4e85b8f8ceb098100521b12414263526</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>d2f4fb9c1b3c1810fe5476e48d4bcb84</scope_name>
+        <serialized_content>{"FlowDesigner:FD4e85b8f8ceb098100521b12414263526":{"$COCollectionField":["String"],"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FD4e85b8f8ceb098100521b12414263526.$type_facets":{"SimpleMapFacet":"{\"max_rows\":\"10\",\"default_value\":\"\",\"label\":\"Invitees\",\"mandatory\":\"true\",\"child_name\":\"Invitees_child0\",\"uiUniqueId\":\"d144721c-e53c-43b2-aa55-df523590daad\",\"uiTypeLabel\":\"Array.String\",\"co_type_name\":\"FD4e85b8f8ceb098100521b12414263526\",\"child_label\":\"Invitees_child0\",\"child_type_label\":\"String\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"array.string\",\"child_type\":\"string\",\"order\":\"1\",\"max_length\":\"1024\",\"child_uiUniqueId\":\"f0bb1b90-c875-4ced-805c-1e51cf23fa77\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>james.tandy</sys_created_by>
+        <sys_created_on>2020-05-13 01:46:01</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0285b8f81bb09810ddc18483cc4bcb27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>FD4e85b8f8ceb098100521b12414263526</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Office 365 Spoke" source="x_snc_o365s">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Office 365 Spoke">d2f4fb9c1b3c1810fe5476e48d4bcb84</sys_scope>
+        <sys_update_name>sys_complex_object_0285b8f81bb09810ddc18483cc4bcb27</sys_update_name>
+        <sys_updated_by>james.tandy</sys_updated_by>
+        <sys_updated_on>2020-05-13 01:46:01</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+</record_update>
